@@ -19,18 +19,18 @@ html, body {
 /* VIDEO PLAYER     video hls muodossa */ 
 .video-js {
     font-size: 10px;
-    color: #ff2525;
     background-color: #000000;
 }
 
-.vjs-matrix {
-    background-color: #ff2525;
+.video-js .vjs-big-play-button {
+    background-color: #008177 !important;
+    left: 40% !important;
+    top: 40% !important;
 }
 
-.video-js .vjs-slider-bar {
-    background-color: #00ff2a;
+.embed-responsive-16by9::before {
+    padding: 5px !important;
 }
-
 
 /* DESCRIPTION */
 .desc {
@@ -41,3 +41,4 @@ html, body {
     background-color: #ffffff;
     text-align: left;
 }
+
