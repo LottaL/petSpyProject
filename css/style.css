@@ -24,8 +24,8 @@ html, body {
 
 .video-js .vjs-big-play-button {
     background-color: #008177 !important;
-    left: 40% !important;
-    top: 40% !important;
+    left: 45% !important;
+    top: 45% !important;
 }
 
 .embed-responsive-16by9::before {
