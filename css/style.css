@@ -31,6 +31,8 @@ html, body {
     background-color: #008177 !important;
     left: 45% !important;
     top: 45% !important;
+    right: 45% !important;
+    bottom: 45% !important;
 }
 
 .embed-responsive-16by9::before {
