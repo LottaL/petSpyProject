@@ -13,6 +13,11 @@ html, body {
 /* YLÄPALKKI */
 .navbar {
     width: 100%;
+    justify-content: center !important;
+}
+
+.logo {
+    width: 20%;
 }
 
 
@@ -26,6 +31,8 @@ html, body {
     background-color: #008177 !important;
     left: 45% !important;
     top: 45% !important;
+    right: 45% !important;
+    bottom: 45% !important;
 }
 
 .embed-responsive-16by9::before {
@@ -42,3 +49,13 @@ html, body {
     text-align: left;
 }
 
+@media only screen and (max-width: 500px) {
+    .video-js .vjs-big-play-button {
+        left: 45% !important;
+        top: 45% !important;
+        width: 43px !important;
+        height: 21px !important;
+        font-size: 2em !important;
+        line-height: 1em !important;
+    }
+}
