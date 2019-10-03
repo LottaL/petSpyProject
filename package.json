@@ -4,7 +4,8 @@
   "description": "school assignment",
   "main": "index.js",
   "dependencies": {
-    "bootstrap": "^3.4.1"
+    "bootstrap": "^3.4.1",
+    "video.js": "^7.6.5"
   },
   "devDependencies": {},
   "scripts": {
