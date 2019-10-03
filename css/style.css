@@ -38,10 +38,6 @@ html, body {
     top: 45% !important;
 }
 
-.embed-responsive-16by9::before {
-    padding: 5px !important;
-}
-
 /* DESCRIPTION */
 .desc {
     width: 100%;
