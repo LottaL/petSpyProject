@@ -1,5 +1,5 @@
 # petSpyProject
 school assignment
 
-EDIT 2.10.2019: streaming.html and style.css edited
+EDIT 2.10.2019: streaming.html and style.css edited <br>
 EDIT 3.10.2019: logo
