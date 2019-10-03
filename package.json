@@ -2,13 +2,18 @@
   "name": "petspyproject",
   "version": "1.0.0",
   "description": "school assignment",
-  "main": "index.js",
+  "main": "server.js",
   "dependencies": {
-    "bootstrap": "^3.4.1"
+    "body-parser": "^1.19.0",
+    "bootstrap": "^3.4.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.3",
+    "nodemon": "^1.19.3"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
