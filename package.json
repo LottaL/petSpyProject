@@ -4,11 +4,16 @@
   "description": "school assignment",
   "main": "server.js",
   "dependencies": {
+<<<<<<< HEAD
     "body-parser": "^1.19.0",
     "bootstrap": "^3.4.1",
     "express": "^4.17.1",
     "mongoose": "^5.7.3",
     "nodemon": "^1.19.3"
+=======
+    "bootstrap": "^3.4.1",
+    "video.js": "^7.6.5"
+>>>>>>> d0dd18274369efa9e1de71c20fa14c2452aa2935
   },
   "devDependencies": {},
   "scripts": {
