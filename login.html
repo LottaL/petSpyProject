@@ -15,19 +15,19 @@
 
 <div id="signup">
 
-     <form class="signup" action="register" method="post">
+     <form class="signup" action="registerUser" method="post">
          <h2 class="center">Sign up</h2>
 
          <div class="kentat">
-             <input class="kentat input" type="text" name="username" placeholder="username">
+             <input class="kentat input" id="registerusername" type="text" name="username" placeholder="username">
          </div>
 
          <div class="kentat">
-             <input class="kentat input" type="text" name="suemail" placeholder="email">
+             <input class="kentat input" type="text" id="registeremail" name="email" placeholder="email">
          </div>
 
          <div class="kentat">
-             <input class="kentat input" type="password" name="password" placeholder="password">
+             <input class="kentat input" type="password" name="password" id="registerpassword" placeholder="password">
          </div>
 
          <div class="kentat">
@@ -46,13 +46,13 @@
 
  <div id="login">
 
-     <form action="login" method="post">
+     <form action="loginUser" method="post">
          <h2>Login</h2>
          <div class="kentat">
-             <input class="kentat" type="text" name="username" placeholder="username">
+             <input class="kentat" type="text" id="loginusername" name="username" placeholder="username">
          </div>
          <div class="kentat">
-             <input class="kentat" type="password" name="password" placeholder="password">
+             <input class="kentat" type="password" id="loginpassword" name="password" placeholder="password">
          </div>
          <div class="kentat">
              <input id="loginnappi" class="kentat" type="submit" value="Login">
