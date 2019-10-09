@@ -11,10 +11,18 @@ const email =  document.getElementById("registeremail");
 
 const password = document.getElementById("registerpassword");
 
+const repassword = document.getElementById("checkpassword");
+
 registerbutton.addEventListener("click", function(event){
   event.preventDefault();
+    if(password.value===repassword.value){
+      registerUser(username.value,password.value,email.value).then(res => console.log(res));
+      alert("Account creation successful!")
+      document.getElementsByClassName("kentat input").value = '';
+    }else{
+      alert("The passwords do not match!")
+    }
 
-    registerUser(username.value,password.value,email.value).then(res => console.log(res));
 
 });
 
@@ -36,8 +44,12 @@ const auth = res.auth;
   if(auth){
     localStorage.setItem("token",res.token);
     location.href = "streaming.html"
+  }else{
+    alert("Username and/or password is wrong!");
+    document.getElementsByClassName("kentat").value = '';
   }
 })
 
 
 });
+
