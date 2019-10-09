@@ -8,27 +8,28 @@
     <link href="https://vjs.zencdn.net/6.7/video-js.min.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <img class="logo" src="img/petspylogo.png">
-        </nav>
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <img class="logo" src="img/petspylogo.png">
+        <button id="logoutbutton" class="logout-btn btn btn-light">logout</button>
+    </nav>
 
-        <div class="embed-responsive embed-responsive-16by9">
-            <iframe src="http://213.243.169.202:8080/player.html" 
-                name="restreamer-player" width="800" height="450" 
-                scrolling="no" frameborder="0" webkitallowfullscreen="true" 
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe src="http://213.243.169.202:8080/player.html"
+                name="restreamer-player" width="800" height="450"
+                scrolling="no" frameborder="0" webkitallowfullscreen="true"
                 mozallowfullscreen="true" allowfullscreen="true">
-            </iframe>
-        </div>
-
-        <div class="desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-        </div>
-        
+        </iframe>
     </div>
-    
-    <script src='https://vjs.zencdn.net/6.7/video.min.js'></script>
-    <script type="text/javascript" src="./modules/fetching.js"></script>
-    <script type="text/javascript" src="index.js"></script>
+
+    <div class="desc" id="desc">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+    </div>
+
+</div>
+
+<script src='https://vjs.zencdn.net/6.7/video.min.js'></script>
+<script type="text/javascript" src="./modules/fetching.js"></script>
+<script type="text/javascript" src="streaming.js"></script>
 </body>
 </html>

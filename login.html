@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -66,4 +67,74 @@
 <script type="text/javascript" src="./modules/fetching.js"></script>
 <script type="text/javascript" src="index.js"></script>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login page</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <img class="logo" src="img/petspylogo.png">
+    </nav>
+
+    <div id="signup">
+
+        <form class="signup" action="registerUser" method="post">
+            <h2 class="center">Sign up</h2>
+
+            <div class="kentat">
+                <input class="kentat input" id="registerusername" type="text" name="username" placeholder="username">
+            </div>
+
+            <div class="kentat">
+                <input class="kentat input" type="text" id="registeremail" name="email" placeholder="email">
+            </div>
+
+            <div class="kentat">
+                <input class="kentat input" type="password" name="password" id="registerpassword" placeholder="password">
+            </div>
+
+            <div class="kentat">
+                <input class="kentat input" type="password" name="passwordcheck" id="checkpassword" placeholder="password again">
+            </div>
+
+            <div class="kentat">
+                <input id="nappi" class="kentat btn btn-light" type="submit" value="Register">
+            </div>
+
+
+        </form>
+
+    </div>
+
+
+    <div id="login">
+
+        <form action="loginUser" method="post">
+            <h2>Login</h2>
+            <div class="kentat">
+                <input class="kentat" type="text" id="loginusername" name="username" placeholder="username">
+            </div>
+            <div class="kentat">
+                <input class="kentat" type="password" id="loginpassword" name="password" placeholder="password">
+            </div>
+            <div class="kentat">
+                <input id="loginnappi" class="kentat btn btn-light" type="submit" value="Login">
+            </div>
+        </form>
+    </div>
+
+</div>
+
+
+<script type="text/javascript" src="./modules/fetching.js"></script>
+<script type="text/javascript" src="index.js"></script>
+</body>
+>>>>>>> 93c1e050ee21c6f73b9beeaba96caf30aa208dd6
 </html>
