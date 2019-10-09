@@ -72,4 +72,8 @@ html, body {
         font-size: 0.5em !important;
         padding: 0 !important;
     }
+
+    .desc {
+        font-size: 4vw;
+    }
 }
