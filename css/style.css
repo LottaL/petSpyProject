@@ -22,6 +22,12 @@ html, body {
     width: 20%;
 }
 
+.logout-btn {
+    right: 3%;
+    bottom: 0.5rem;
+    position: absolute;
+}
+
 
 /* VIDEO PLAYER     video hls muodossa */ 
 .video-js {
@@ -56,5 +62,12 @@ html, body {
         height: 21px !important;
         font-size: 2em !important;
         line-height: 1em !important;
+    }
+
+    .logout-btn {
+        width: 34px;
+        height: 18px;
+        font-size: 0.5em !important;
+        padding: 0 !important;
     }
 }
