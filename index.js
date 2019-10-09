@@ -15,15 +15,26 @@ const repassword = document.getElementById("checkpassword");
 
 registerbutton.addEventListener("click", function(event){
   event.preventDefault();
-    if(password.value===repassword.value){
-      registerUser(username.value,password.value,email.value).then(res => console.log(res));
-      alert("Account creation successful!")
-      document.getElementsByClassName("kentat input").value = '';
+  if(username.value.length>0) {
+    if(email.value.length>0) {
+      if(password.value.length>0) {
+        if (password.value === repassword.value) {
+          registerUser(username.value, password.value, email.value).
+              then(res => console.log(res));
+          alert("Account creation successful!")
+          document.getElementsByClassName("kentat input").value = '';
+        } else {
+          alert("The password do not match!")
+        }
+      }else{
+        alert("password is required to create an account!")
+      }
     }else{
-      alert("The passwords do not match!")
+      alert("email is required to create an account!")
     }
-
-
+  }else{
+    alert("username is required to create an account!")
+  }
 });
 
 

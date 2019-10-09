@@ -10,3 +10,13 @@ logoutnappi.addEventListener("click", function(event){
   console.log("asdfghj");
   localStorage.setItem("token",null);
 });
+
+const description = document.getElementById("desc");
+
+getStreamById("5d975fa6bbc1c637c0c7aa09").then( res => { console.log(res);
+
+
+
+    description.innerHTML= res.description;
+
+});
