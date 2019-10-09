@@ -11,6 +11,7 @@ html, body {
     flex-wrap: wrap;
     text-align: center;
     background-color: #bbe6e7;
+    max-width: 100% !important;
 }
 
 #signup {
@@ -42,3 +43,4 @@ html, body {
 .logo {
     width: 20%;
 }
+
