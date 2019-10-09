@@ -30,7 +30,7 @@ const registerUser = async (username, password, email) => {
             body: JSON.stringify(user)
             }
         )
-        .then(res =>res.json())
+        .then(res => res.json())
         .then(result => {
         //console.log(result);
         return result;
