@@ -1,33 +1,3 @@
-<<<<<<< HEAD
-"use strict";
-//sample how to use modules/fetching.js functions
-
-getAllStreams().then(res => console.log(res));
-
-const registerbutton = document.getElementById("nappi");
-
-const loginbutton = document.getElementById("loginnappi");
-
-const username = document.getElementById("registerusername");
-
-const email =  document.getElementById("registeremail");
-
-const password = document.getElementById("registerpassword");
-
-registerbutton.addEventListener("click", function(event){
-  event.preventDefault();
-  console.log(event);
-    registerUser("Me","pass","daa").then(res => console.log(res))
-});
-
-
-
-loginbutton.addEventListener("click", function(event){
-event.preventDefault();
-console.log(event);
-
-});
-=======
 "use strict";
 //sample how to use modules/fetching.js functions
 
@@ -94,4 +64,3 @@ const auth = res.auth;
 
 });
 
->>>>>>> 93c1e050ee21c6f73b9beeaba96caf30aa208dd6
